@@ -1,4 +1,7 @@
-TypedClass = require( '../../../index' ) __dirname
+typed = require( '../../../index' )
 
-module.exports = class Request extends TypedClass
+class Request
+
+module.exports = typed Request, __dirname
+  
   
