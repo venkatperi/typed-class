@@ -17,9 +17,13 @@ npm install typed-class
 
 ```coffeescript
 # lib/request/Request.coffee
-TypedClass = require( 'typed-class' ) __dirname
+typed = require( 'typed-class' )
 
-module.exports = class Request extends TypedClass
+class Request
+  constructor: -> #do something
+
+module.exports = typed Request, __dirname
+
 ```
 
 ### Start: a Specialized Request
