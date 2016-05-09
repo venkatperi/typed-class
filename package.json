@@ -1,0 +1,25 @@
+{
+  "name": "typed-class",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venkatperi/typed-class.git"
+  },
+  "preferGlobal": false,
+  "description": "Instantiate classes with string type",
+  "dependencies": {},
+  "bundleDependencies": [],
+  "main": "dist/index",
+  "scripts": {
+    "prepublish": "grunt",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "should": "^8.3.1"
+  },
+  "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
+  "license": "MIT"
+}
